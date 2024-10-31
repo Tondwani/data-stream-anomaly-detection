@@ -1,0 +1,2 @@
+Overview
+This document provides a high-level summary of the Anomaly Detection System. The system is designed to process streaming data, identify anomalies in real time, and visualize results through a customizable interface. It incorporates multiple anomaly detection algorithms and an ensemble approach for robust results.
