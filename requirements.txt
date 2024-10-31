@@ -15,3 +15,17 @@ dataclasses>=0.8; python_version < '3.7'
 jupyter>=1.0.0  # For development and analysis
 pytest>=6.2.0  # For running tests
 black>=21.5b2  # For code formatting
+
+echo "# data-stream-anomaly-detection" >> README.md
+git init
+git add README.md
+git commit -m "first commit"
+git branch -M main
+git remote add origin https://github.com/Tondwani/data-stream-anomaly-detection.git
+git push -u origin main
+
+https://github.com/Tondwani/data-stream-anomaly-detection.git
+
+git remote add origin https://github.com/Tondwani/data-stream-anomaly-detection.git
+git branch -M main
+git push -u origin main

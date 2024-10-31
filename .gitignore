@@ -1,13 +1,15 @@
-echo "# data-stream-anomaly-detection" >> README.md
-git init
-git add README.md
-git commit -m "first commit"
-git branch -M main
-git remote add origin https://github.com/Tondwani/data-stream-anomaly-detection.git
-git push -u origin main
+# Virtual Environment
+venv/
+env/
+.env/
+.venv/
 
-https://github.com/Tondwani/data-stream-anomaly-detection.git
+# Python cache files
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
 
-git remote add origin https://github.com/Tondwani/data-stream-anomaly-detection.git
-git branch -M main
-git push -u origin main
+# Additional files to ignore
+*.log
+.DS_Store
