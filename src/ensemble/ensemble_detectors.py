@@ -1,8 +1,8 @@
 from threading import Lock
 from typing import Dict, Tuple
 
-from ..anomaly_detection.detectors import (EWMADetector, RobustZScoreDetector,
-                                           ZScoreDetector)
+from anomaly_detection.detectors import (EWMADetector, RobustZScoreDetector,
+                                         ZScoreDetector)
 
 
 class DetectorEnsemble:

@@ -9,9 +9,10 @@ import matplotlib.pyplot as plt
 import yaml
 from matplotlib.animation import FuncAnimation
 
-sys.path.insert(0, os.path.abspath(os.path.join(os.path.dirname(__file__), '..')))
+sys.path.insert(0, "C:/Users/Craig/Desktop/MyGitHub Projects/Data Stream Anomaly Detection/src")
+
 from anomaly_detection.detectors import PerformanceMetrics
-from data_generation.data_stream_generator import DataStreamGenerator
+from data_generation.data_stream_generation import DataStreamGenerator
 from ensemble.ensemble_detectors import DetectorEnsemble
 from visualization.visualizer import RealTimeVisualizer
 

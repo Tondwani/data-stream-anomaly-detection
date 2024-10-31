@@ -70,9 +70,19 @@ python src/main.py
 ## Project Structure
 
 ```
-data-stream-anomaly-detection/
-├── src/
-│   ├── main.py
+Efficiency data-stream-anomaly-detection/
+├── config/
+|   ├── config_schema.json
+|
+├── Docs/
+|   ├──api-reference.md
+|   ├──configuration.md
+|   ├──getting-started.md
+|   ├──overview.md
+|
+├── images/
+├──py src/
+│   ├── main.
 │   ├── data_generation/
 │   │   └── data_stream_generator.py
 │   ├── anomaly_detection/
@@ -81,6 +91,7 @@ data-stream-anomaly-detection/
 │   │   └── ensemble_detectors.py
 │   └── visualization/
 │       └── visualizer.py
+├── .gitignore
 ├── config.yaml
 ├── requirements.txt
 └── README.md
